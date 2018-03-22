@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/xyc_base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/xyc.css">
+  <link rel="stylesheet" href="css/iconfont.css">	
+  <link rel="stylesheet" href="css/footer-xyc.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+	  *{box-sizing: border-box}
+  </style>
+ </head>
+ <body>
+<div>
+	 <div class="pf-header"></div>
+	 <div class="pf-placeholder"></div>
+	<!--手表系列简介-->
+	<div style="height:100px;"></div>
+	<!--导航-->
+	<div class="xyc-dh">
+<!-- 		<span>主页</span><span>>劳力士腕表</span><span>>星期日历型</span> -->
+	</div>
+	<div class="xyc_xl_box">
+		<!--黄色字体手表系列的缩减-->
+		<h2 class="xyc_two_header"></h2>
+		<!--手表系列名字-->
+		<h1 class="xyc_one_header"></h1>
+		<!--手表系列的大段文字说明-->
+		<p class="xyc_xlsm"></p>
+	</div>	
+	<!--款式选择项/7项款式-->
+	<div class="xyc_selector_box">
+		<div class="xyc_ycc">
+			<div class="xyc_choose_box">
+				<!--上方说明文字-->
+				<span class="xyc_selector">选择尺寸</span>
+				<span class="xyc_selector">选择材质</span>
+				<span class="xyc_selector">选择外圈</span>
+				<span class="xyc_selector">选择功能</span>
+				<span class="xyc_selector">选择表带</span>
+				<span class="xyc_selector">选择表盘</span>
+				<span class="xyc_selector">选择钟点标记风格</span>
+				<!--下方选择项-->
+				<br>
+				<ul class="xyc_choose">
+					<li class="xyc_cccz"><span class="xyc_yq"></span>任何尺寸</li>
+					<li class="xyc_cc"><span class="xyc_yq"></span><span class="xyc_wz" data_cc=1>小型款</span></li>
+					<li class="xyc_cc"><span class="xyc_yq"></span><span class="xyc_wz" data_cc=2>中型款</span></li>
+					<li class="xyc_cc"><span class="xyc_yq"></span><span class="xyc_wz" data_cc=3>大型款</span></li>
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_czcz"><span class="xyc_yq"></span>任何材质</li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=1>钢</span></li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=2>金及钢</span></li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=3>黄金</span></li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=4>粉红金</span></li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=5>白色黄金</span></li>
+					<li class="xyc_cz"><span class="xyc_yq"></span><span class="xyc_wz" data_cz=6>铂金</span></li>
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_wqcz"><span class="xyc_yq"></span>任何外圈</li>
+					<li class="xyc_wq"><span class="xyc_yq"></span><span class="xyc_wz" data_wq=1>光滑外圈</span></li>
+					<li class="xyc_wq"><span class="xyc_yq"></span><span class="xyc_wz" data_wq=2>三角坑纹外圈</span></li>
+					<li class="xyc_wq"><span class="xyc_yq"></span><span class="xyc_wz" data_wq=3>专业外圈</span></li>
+					<li class="xyc_wq"><span class="xyc_yq"></span><span class="xyc_wz" data_wq=4>Cerachrom外圈</span></li>
+					<li class="xyc_wq"><span class="xyc_yq"></span><span class="xyc_wz" data_wq=5>宝石镶嵌外圈</span></li>	
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_gncz"><span class="xyc_yq"></span>任何功能</li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=1>不设日历显示</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=2>显示日历</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=3>计时表</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=4>两地时区</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=5>潜水表</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=6>航海表</span></li>
+					<li class="xyc_gn"><span class="xyc_yq"></span><span class="xyc_wz" data_gn=7>月相</span></li>
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_bdcz"><span class="xyc_yq"></span>任何表带</li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=1>Oysterflex</span></li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=2>蚝式</span></li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=3>元首型</span></li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=4>纪念型</span></li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=5>Pearlmaster</span></li>
+					<li class="xyc_bd"><span class="xyc_yq"></span><span class="xyc_wz" data_bd=6>镶嵌宝石表带</span></li>
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_bpcz"><span class="xyc_yq"></span>任何表盘</li>
+					<li class="xyc_bp"><span class="xyc_yq"></span><span class="xyc_wz" data_bp=1>浅色表盘</span></li>
+					<li class="xyc_bp"><span class="xyc_yq"></span><span class="xyc_wz" data_bp=2>彩色表盘</span></li>
+					<li class="xyc_bp"><span class="xyc_yq"></span><span class="xyc_wz" data_bp=3>深色表盘</span></li>
+					<li class="xyc_bp"><span class="xyc_yq"></span><span class="xyc_wz" data_bp=4>密镶砖石表盘</span></li>
+				</ul>
+				<ul class="xyc_choose">
+					<li class="xyc_zdbjfgcz"><span class="xyc_yq"></span>任何钟点标记</li>
+					<li class="xyc_zdbjfg"><span class="xyc_yq"></span><span class="xyc_wz" data_zdbjfg=1>阿拉伯数字</span></li>
+					<li class="xyc_zdbjfg"><span class="xyc_yq"></span><span class="xyc_wz" data_zdbjfg=2>罗马数字</span></li>
+					<li class="xyc_zdbjfg"><span class="xyc_yq"></span><span class="xyc_wz" data_zdbjfg=3>经典钟点标记</span></li>
+					<li class="xyc_zdbjfg"><span class="xyc_yq"></span><span class="xyc_wz" data_zdbjfg=4>镶嵌宝石钟点标记</span></li>
+				</ul>
+			</div>
+		</div>
+			<!--左右箭头-->
+			<!--左箭头-->
+				<img src="img/left.png" class="xyc_left">
+			<!--右箭头-->
+				<img src="img/right.png" class="xyc_right" style="overflow:visible;">
+		<!--关闭/筛选结果-->
+		<div class="xyc_cp">
+			<span class="xyc_cp_click">关闭</span>
+			<span class="xyc_cp_tb"></span>
+		</div>
+	</div>
+	<!--分页设置-->
+	<div class="xyc_fy_kz">
+		<div class="xyc_fy_box">
+			<img src="img/left.png" class="xyc_fy_left">
+			<div class="xyc_fy">页1</div>
+			<img src="img/right.png" class="xyc_fy_right">
+		</div>
+	</div>
+	<!--搜索结果栏-->
+	<div class="xyc_ssjg_box">
+<!-- 		<div class="xyc_ssjg_1"> -->
+<!-- 			<img src="img/rz/(1).jpg" class="xyc_ssjg_img" alt="1"> -->
+<!-- 			<div class="xyc_ssjg_font"> -->
+<!-- 				<span class="xyc_ssjg_font1">星期日历型40</span> -->
+<!-- 				<br> -->
+<!-- 				<span class="xyc_ssjg_font2">蚝式,40毫米</span> -->
+<!-- 				<br> -->
+<!-- 				<span class="xyc_ssjg_font2">黄金</span> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+	</div>
+<!-- 	分享图	 -->
+	<div class="xyc_fx_box">
+		<span class="xyc_fx_font">分享此页面</span>
+	</div>
+	<div id="footer"></div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/pf-header.js"></script>
+	<script src="js/xyc.js"></script>
+	<script src="js/index-xia.js"></script>
+	<script src="js/footer-xyc.js"></script>
+ </body>
+</html>

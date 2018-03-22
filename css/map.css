@@ -1,0 +1,93 @@
+/*开头三行字*/
+.xyc_xl_box{
+	position:relative;
+	text-align:center;
+}
+.xyc_two_header{
+	
+	font-size:40px;
+	color:rgb(163,126,44);
+}
+.xyc_one_header{
+	font-size:20px;
+}
+.xyc_xlsm{
+	width:680px;
+	font-size:14px;
+	line-height:1.5;
+	color:#818181;
+	margin:0 auto;
+}
+/*搜索框盒子*/
+.xyc-ss-box{
+	text-align:center;
+}
+/*搜索栏*/
+.xyc-sssr{
+	height:30px;
+	width:250px;
+	border-radius:3px;
+	border:1px solid rgb(225,225,225);
+	padding-left:20px;
+}
+.xyc-ssjg-font{
+	text-align:left;
+	opacity:0.5;
+}
+/*搜索结果*/
+.xyc-ssjg-box{
+	width:306px;
+	border:1px solid #888888;
+	display:inline-block;
+}
+/*搜索按钮*/
+.xyc-ssan{
+	background:white;
+	border:0;
+	height:30px;
+	width:50px;
+}
+/*地图*/
+.xyc-rq-box{
+	width:100%;
+	position:relative;
+}
+.xyc-rq-nr{
+	width:980px;
+	position:absolute;
+	left:0;right:0;top:0;bottom:0;
+	margin:0 auto;
+	margin-top:50px;
+}
+#dituContent{
+	position:absolute;
+	left:0;right:0;top:0;bottom:0;
+}
+/*地图边上的文字*/
+.xyc-map-img{
+	width:300px;
+	height:220px;
+}
+.xyc-rq-js{
+	width:300px;
+	height:798px;
+	position:absolute;
+	left:1px;right:0;top:1px;bottom:0;
+	text-align:center;
+	z-index:150;
+	background-color:white;
+}
+.xyc-rq-js-font1{
+	margin-top:70px;
+	color:rgb(163,126,44);
+}
+.xyc-rq-js-font2{
+	margin-top:70px;
+	font-weight: lighter;
+	font-size:20px;
+}
+.xyc-rq-js-font3{
+
+	color: #212121;
+	margin-top:80px;
+}

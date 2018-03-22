@@ -1,0 +1,166 @@
+body,div,p,h2,h1,img{
+    padding: 0;
+    margin: 0;
+}
+ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.zhy-container img{
+    width: 100%;
+    height: 100%;
+}
+.zhy_t>h2,.zhy_z>h2{
+	color: #a37e2c;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+.zhy_t>h1{
+	font-size: 1.9em;
+	font-weight: lighter;
+}
+.zhy_t>p{
+	font-size: 0.8em;
+	color:#818181;
+}
+.zhy_index{
+    width: 100%;
+    height: 100%;
+}
+.zhy_q{
+    width: 100%;
+    height: 440px;
+}
+.zhy_w{
+    width: 100%;
+    height: 707.25px;
+    display: flex;
+    justify-content: space-between;
+}
+.zhy_e{
+    width: 50%;
+    height: 100%;
+}
+.zhy_r{
+    width: 50%;
+    height: 100%;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.zhy_t{
+    width: 400px;
+    height: 198px;
+}
+.zhy_u{
+    width: 50%;
+    height: 100%;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.zhy_y{
+	width: 100%;
+	height: 560px;
+	
+}
+.zhy_i{
+    width: 100%;
+    height: 678px;
+    display: flex;
+    justify-content: space-between;
+}
+.zhy_o{
+	width: 100%;
+	height: 720px;
+	
+}
+.zhy_p{
+    width: 100%;
+    height: 762px;
+    display: flex;
+    justify-content: space-between;
+}
+.zhy_a{
+    width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: space-between;
+}
+.zhy_s{
+	width: 100%;
+	height: 550px;
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+.zhy_d{
+	width: 400px;
+	height: 255px;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.zhy_f{
+	width: 240px;
+	height: 240px;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.zhy_g{
+	width: 240px;
+	height: 267px;
+}
+.zhy_h{
+	width: 100%;
+	height: 610px;
+	
+}
+.zhy_j{
+    width: 100%;
+    height: 355px;
+	
+}
+.zhy_k{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.zhy_z{
+	width: 100%;
+	height: 119.1px;
+}
+.zhy_z>h1::after{
+	content: "";
+	display: block;
+	margin: 23px auto 0;
+	width: 50px;
+	height: 2px;
+	overflow: hidden;
+	background-color: #212121;
+}
+.zhy_x{
+	width: 100%;
+	height: 213.9px;
+	display: flex;
+	justify-content: center;
+}
+.zhy_c{
+	width: 323.8px;
+	height:177.9px;
+	display: inline-block;
+}
+.zhy_b{
+	padding: 60px 0 70px;
+	width: 100%;
+	height: 68px;
+}
+.zhy_b>p{
+	font-size: 11px;
+	text-align: center;
+	color: #a37e2c;
+}
+.zhy_n{
+	margin-left: 50%;
+}

@@ -1,0 +1,177 @@
+/*移动CSS*/
+.moveleft{
+	transform:translate(-600px);
+}
+/*body*/
+.xyc_xl_box{
+	position:relative;
+	text-align:center;
+}
+.xyc_fx_box{
+	text-align:center;
+	position:relative;
+}
+.xyc_fx_font{
+	color:rgb(163,126,44);
+	font-size:20px;
+}
+/*导航*/
+.xyc-dh{
+	color:rgb(163,126,44);
+}
+.xyc-dh-font{
+	cursor:pointer;
+}
+/*开头三行字*/
+.xyc_two_header{
+	font-size:20px;
+	color:rgb(163,126,44);
+}
+.xyc_one_header{
+	font-size:40px;
+}
+.xyc_xlsm{
+	width:680px;
+	font-size:14px;
+	line-height:1.5;
+	color:#818181;
+	margin:0 auto;
+}
+/*选择框*/
+.xyc_selector{
+	display:inline-block;
+	font-size:12px;
+	width:200px;
+	text-align:center;
+}
+.xyc_selector_box{
+	position:relative;
+	margin:0 auto;
+	margin-top:10px;
+	width:815px;
+}
+.xyc_choose_box{
+	white-space:nowrap;
+	transition:all .5s;
+}
+.xyc_height_z{
+	height:0;
+}
+.xyc_ycc{
+	width:815px;
+	overflow:hidden;
+}
+.xyc_choose{
+	vertical-align:top;
+	display:inline-block;
+	margin-top:20px;
+	width:200px;
+}
+.xyc_choose_js{
+	opacity:0.2;
+}
+.xyc_choose>li{
+	display:block;
+	width:200px;
+	padding-top:10px;
+	margin-left:15px;
+	cursor:pointer;
+}
+.xyc_wz{
+	color:#212121;
+	font-size:15px;
+}
+.xyc_yq{
+	display:inline-block;
+	height:13px;
+	width:13px;
+	border:1px solid black;
+	border-radius:50%;
+	margin-right:5px;
+}
+.xyc_bg_b{
+	background:#000;
+}
+/*左右箭头*/
+.xyc_left{
+	width:100px;
+	height:100px; 
+	position:absolute;
+	left:-80px;right:0;bottom:0;top:0;
+	margin:auto 0;
+}
+.xyc_right{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:795px;right:0;bottom:0;top:0;
+	margin:auto 0;
+}
+/*关闭选项*/
+.xyc_cp{
+	text-align:center;
+}
+.xyc_cp_tb{
+	display:inline-block;
+	border:5px solid transparent;
+	border-bottom-color:black;
+	margin-bottom:3px;
+}
+.xyc_cp_tb_c{
+	display:inline-block;
+	border:5px solid transparent;
+	border-top-color:black;
+	margin-top:3px;
+}
+/*分页*/
+.xyc_fy_box{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.xyc_fy{
+	display:inline-block;
+	vertical-align:top;
+	line-height:50px;
+	opacity:0.8;
+	font-size:15px;
+}
+.xyc_fy_left{
+	height:50px;
+	width:50px;
+	opacity:0.5;
+}
+.xyc_fy_right{
+	height:50px;
+	width:50px;
+	opacity:0.5;
+}
+/*搜索结果栏*/
+.xyc_ssjg_img{
+	width:320px;
+	height:222px;
+}
+.xyc_ssjg_font{
+	position:absolute;
+	top:160px;bottom:0;left:0;right:0;
+	margin:0 auto;
+	text-align:center;
+}
+.xyc_ssjg_1{
+	position:relative;
+	transition:all 1s;
+}
+.xyc_ssjg_font2{
+	opacity:0.5;
+	font-size:14px;
+}
+.xyc_ssjg_box{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	display:flex;
+	flex-wrap:wrap;
+}
+.xyc_ssjg_1:hover{
+	transform:scale(1.1);
+}

@@ -1,0 +1,350 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS sb;
+CREATE DATABASE sb  CHARSET=UTF8 ;
+USE sb;
+CREATE TABLE xlb(
+  xlid INT,	 
+  xlname VARCHAR(20),
+  xlxjs VARCHAR(20),
+  xldjs VARCHAR(512),
+  xlimg VARCHAR(32)
+);
+CREATE TABLE xqxlb(
+  xqid INT PRIMARY KEY AUTO_INCREMENT,
+  xqname VARCHAR(20),
+  xqimg VARCHAR(32),
+  xqcc VARCHAR(20),
+  xqcz VARCHAR(20),
+  xqwq VARCHAR(20),
+  xqgn VARCHAR(20),
+  xqbd VARCHAR(20),
+  xqbp VARCHAR(20),
+  xqzdbjfg VARCHAR(20),
+  xqhm INT,
+  xlid INT
+);
+INSERT INTO xlb VALUES('0','劳力士腕表','卓越性能与显赫象征','劳力士腕表蕴含最优质的原材料与一丝不苟的工艺。每件组件均由劳力士自行以严格的标准设计及研制。','');
+INSERT INTO xlb VALUES('10','星期日历型','名贵金属','1956年问世的劳力士星期日历型腕表实现了一项显赫的创新：它备有18ct金或铂金款式，是世界上第一款在表盘上既有日历窗又能显示有全写星期的腕表，这在当时是一个伟大的技术成就。作为尊贵腕表的典范，星期日历型配备元首型表带，一经问世就受到具影响力人士的青睐。','img/xqrl/(8).jpg');
+INSERT INTO xlb VALUES('20','SKY-DWELLER','至繁归于至简','视乎不同型号，劳力士Sky‑Dweller汇集了11至14项技术专利，为环球旅游人士提供所需的资讯，轻松掌握时间。于2012年推出的Sky‑Dweller是革新精湛技术、先进机械及简易操作的完美结合。','img/sky/3.jpg');
+INSERT INTO xlb VALUES('30','日志型','经典腕表之当代典范','不论是永恒的美学元素还是卓越的功能，劳力士日志型都是经典腕表的典范。从审美角度来看，不同型号的日志型腕表在经历了岁月洗礼之后，仍然保留着最初的美学元素。而其传统的表款，更成为史上最著名、辨识度最高的腕表之一。','img/rz/(1).jpg');
+INSERT INTO xlb VALUES('40','格林尼治型 II','与时并进','虽然劳力士格林尼治型腕表特别为专业用途而设，其无与伦比的功能性与外观设计，让它同时广受旅游人士所拥戴。除备有不同时区时间显示外，格林尼治型的坚固材质及易于配搭的外型，不仅适合环游世界时佩戴，也适用于出席任何场合。','img/m116719blro-0001.jpg');
+INSERT INTO xlb VALUES('50','Milgauss','易于识别','普通腕表的可靠性和精准性在50至100高斯磁场强度下就会受影響。然而不少科学家工作时需处身磁场强度比此更高的环境。有见及此，劳力士致力寻求解决办法，并于1956年推出首款防磁腕表劳力士Milgauss。“mille”在法语中意为一千，腕表亦因而得名。','img/m116400gv-0002.jpg');
+INSERT INTO xlb VALUES('70','海使型','劳力士如何征服深海','劳力士一只工艺超凡的潜水员腕表。劳力士海使型防水深达4,000英尺（1,220米），而劳力士深潜型则防水深达12,800英尺（3,900米），是与专业潜水员合作数十年的成果。','img/hs/01.jpg');
+INSERT INTO xlb VALUES('80','潜航者型','潜水腕表的典范','劳力士潜航者型是坚固耐用的典范之作。新款蚝式表壳上的独特表盘设有夜光大钟点标记、渐进式旋转Cerachrom外圈及实心链节蚝式表带。新世代潜航者型及潜航者日历型腕表与1953年推出的原款腕表如出一辙。','img/submerge/1.jpg');
+INSERT INTO xlb VALUES('110','探险家型','经验打造','探险家型象征着劳力士与探险世界的不解之缘。自上世纪20年代末，劳力士就以世界为试验场所，在真实的环境条件下测试腕表性能，并借此不断发展与完善蚝式腕表的性能，使其更加精准、坚固和可靠。','img/explorer/1.jpg');
+INSERT INTO xlb VALUES('100','游艇名仕型','推波逐浪的腕表','劳力士游艇名仕型及游艇名仕型 II表款专为扬帆出海而设，充分体现航海精神。品牌与帆船运动界的深厚渊源，最早可追溯至1950年代。启发自此悠久传统，游艇名仕型腕表集实用功能与非凡风格于一体，而游艇名仕型 II计时腕表则为劳力士超卓科技结晶，专为帆船赛计时而设。','img/yt/001.jpg');
+INSERT INTO xqxlb VALUES('','星期日历型40','img/xqrl/(8).jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','蚝式','浅色表盘','经典钟点标记','40毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型36','img/xqrl/(2).jpg','中型款',
+'铂金','光滑外圈','显示日历','蚝式','彩色表盘','罗马数字','36毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型36','img/xqrl/(7).jpg','中型款',
+'白色黄金','宝石镶嵌外圈','显示日历','蚝式','彩色表盘','镶嵌宝石钟点标记','36毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型36','img/xqrl/(1).jpg','中型款',
+'黄金','宝石镶嵌外圈','显示日历','蚝式','彩色表盘','镶嵌宝石钟点标记','36毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型40','img/xqrl/(3).jpg','大型款',
+'黄金','宝石镶嵌外圈','显示日历','蚝式','深色表盘','经典钟点标记','40毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型40','img/xqrl/(4).jpg','大型款',
+'粉红金','三角坑纹外圈','显示日历','蚝式','浅色表盘','经典钟点标记','40毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型36','img/xqrl/(5).jpg','中型款',
+'黄金','三角坑纹外圈','显示日历','皮带','彩色表盘','经典钟点标记','36毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型36','img/xqrl/(6).jpg','中型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','浅色表盘','镶嵌宝石钟点标记','36毫米','10');
+INSERT INTO xqxlb VALUES('','星期日历型40','img/xqrl/(9).jpg','大型款',
+'黄金','宝石镶嵌外圈','显示日历','蚝式','彩色表盘','经典钟点标记','40毫米','10');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(1).jpg','大型款',
+'黄金','光滑外圈','显示日历','元首型表盘','彩色','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型36','img/rz/(2).jpg','中型款',
+'粉红金','光滑外圈','显示日历','蚝式','浅色表盘','镶嵌宝石钟点标记','36毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(3).jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','浅色表盘','罗马数字','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型28','img/rz/(4).jpg','小型款',
+'粉红金','宝石镶嵌外圈','显示日历','蚝式','浅色表盘','罗马数字','28毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(5).jpg','小型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','深色表盘','罗马数字','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(6).jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','元首型','浅色表盘','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(7).jpg','小型款',
+'白色黄金','宝石镶嵌外圈','显示日历','蚝式','彩色表盘','罗马数字','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(8).jpg','小型款',
+'黄金','光滑外圈','显示日历','蚝式','彩色表盘','经典钟点标记','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型28','img/rz/(9).jpg','小型款',
+'黄金','宝石镶嵌外圈','显示日历','元首型','浅色表盘','罗马数字','28毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(10).jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','元首型','浅色表盘','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/1.jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','彩色表盘','经典钟点标记','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/2.jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','深色表盘','阿拉伯数字','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/3.jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','蚝式','彩色表盘','经典钟点标记','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/4.jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','皮带','深色表盘','经典钟点标记','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/5.jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','皮带','彩色表盘','经典钟点标记','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/6.jpg','大型款',
+'粉红金','三角坑纹外圈','显示日历','皮带','浅色表盘','罗马数字','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/7.jpg','大型款',
+'粉红金','三角坑纹外圈','显示日历','蚝式','浅色表盘','罗马数字','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/8.jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','皮带','浅色表盘','罗马数字','42毫米','20');
+INSERT INTO xqxlb VALUES('','SKY-DWELLER','img/sky/9.jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','蚝式','彩色表盘','经典钟点标记','42毫米','20');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(1).jpg','大型款',
+'黄金','光滑外圈','显示日历','元首型表盘','彩色','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型36','img/rz/(2).jpg','中型款',
+'粉红金','光滑外圈','显示日历','蚝式','浅色表盘','镶嵌宝石钟点标记','36毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(3).jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','浅色表盘','罗马数字','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型28','img/rz/(4).jpg','小型款',
+'粉红金','宝石镶嵌外圈','显示日历','蚝式','浅色表盘','罗马数字','28毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(5).jpg','小型款',
+'白色黄金','三角坑纹外圈','显示日历','蚝式','深色表盘','罗马数字','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(6).jpg','大型款',
+'黄金','三角坑纹外圈','显示日历','元首型','浅色表盘','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(7).jpg','小型款',
+'白色黄金','宝石镶嵌外圈','显示日历','蚝式','彩色表盘','罗马数字','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型31','img/rz/(8).jpg','小型款',
+'黄金','光滑外圈','显示日历','蚝式','彩色表盘','经典钟点标记','31毫米','30');
+INSERT INTO xqxlb VALUES('','日志型28','img/rz/(9).jpg','小型款',
+'黄金','宝石镶嵌外圈','显示日历','元首型','浅色表盘','罗马数字','28毫米','30');
+INSERT INTO xqxlb VALUES('','日志型41','img/rz/(10).jpg','大型款',
+'白色黄金','三角坑纹外圈','显示日历','元首型','浅色表盘','镶嵌宝石钟点标记','41毫米','30');
+INSERT INTO xqxlb VALUES('','海使型','img/hs/01.jpg','大型款',
+'钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','43毫米','70');
+INSERT INTO xqxlb VALUES('','劳力士深潜型','img/hs/02.jpg','大型款',
+'钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','44毫米','70');
+INSERT INTO xqxlb VALUES('','游艇名仕型40','img/yt/002.jpg','大型款',
+'粉红金','专业外圈','航海表','Oysterflex','深色表盘','经典钟点标记','40毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型37','img/yt/003.jpg','中型款',
+'钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','37毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型37','img/yt/004.jpg','中型款',
+'金及钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','37毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型40','img/yt/005.jpg','大型款',
+'钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','40毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型37','img/yt/006.jpg','中型款',
+'粉红金','专业外圈','航海表','','深色表盘','经典钟点标记','37毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型40','img/yt/007.jpg','大型款',
+'金及钢','专业外圈','航海表','蚝式','深色表盘','经典钟点标记','40毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型II','img/yt/008.jpg','大型款',
+'白色黄金','专业外圈','航海表','蚝式','浅色表盘','经典钟点标记','44毫米','100');
+INSERT INTO xqxlb VALUES('','游艇名仕型II','img/yt/009.jpg','大型款',
+'白色黄金','专业外圈','航海表','蚝式','浅色表盘','经典钟点标记','44毫米','100');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/1.jpg','大型款',
+'不锈钢','Cerachrom外圈','潜水表','蚝式','深色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/2.jpg','大型款',
+'不锈钢','Cerachrom外圈','潜水表','蚝式','深色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/3.jpg','大型款',
+'不锈钢','Cerachrom外圈','潜水表','蚝式','彩色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/4.jpg','大型款',
+'金钢','Cerachrom外圈','潜水表','蚝式','彩色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/5.jpg','大型款',
+'金钢','Cerachrom外圈','潜水表','蚝式','深色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/6.jpg','大型款',
+'黄金','Cerachrom外圈','潜水表','蚝式','彩色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/7.jpg','大型款',
+'黄金','Cerachrom外圈','潜水表','蚝式','深色表盘','经典钟点标记','40毫米','80');
+INSERT INTO xqxlb VALUES('null','潜航者型','img/submerge/8.jpg','大型款',
+'白色黄金','Cerachrom外圈','潜水表','蚝式','彩色表盘','经典钟点标记','40毫米','80');
+
+INSERT INTO xqxlb VALUES('null','探险家型','img/explorer/1.jpg','大型款',
+'不锈钢','光滑外圈','不设日历显示','蚝式','深色表盘','阿拉伯数字','39毫米','110');
+INSERT INTO xqxlb VALUES('null','探险家型','img/explorer/2.jpg','大型款',
+'不锈钢','专业外圈','两地时区','蚝式','浅色表盘','阿拉伯数字','42毫米','110');
+INSERT INTO xqxlb VALUES('null','探险家型','img/explorer/3.jpg','大型款',
+'不锈钢','专业外圈','两地时区','蚝式','深色表盘','阿拉伯数字','42毫米','110');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116719blro-0001.jpg','大型款',
+'白色黄金','黑色Cerachrom陶质字圈','日历显示','蚝式','黑色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116713ln-0001.jpg','大型款',
+'金及钢','Cerachrom外圈','日历显示','蚝式','黑色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116710blnr-0002.jpg','大型款',
+'钢','蓝黑双色Cerachrom陶质字圈','日历显示','蚝式','黑色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116710ln-0001.jpg','大型款',
+'钢','黑色Cerachrom陶质字圈','日历显示','蚝式','黑色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116718ln-0001.jpg','大型款',
+'黄金','双向旋转Cerachrom陶质字圈','日历显示','蚝式','黑色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','格林尼治型 II','img/m116718ln-0002.jpg','大型款',
+'黄金','双向旋转Cerachrom陶质字圈','日历显示','蚝式','绿色','阿拉伯数字','40毫米','40');
+INSERT INTO xqxlb VALUES('','Milgauss','img/m116400gv-0001.jpg','大型款',
+'钢','磨光','日历显示','蚝式','黑色','镶嵌宝石钟点标记','40毫米','50');
+INSERT INTO xqxlb VALUES('','Milgauss','img/m116400gv-0002.jpg','大型款',
+'钢','磨光','日历显示','蚝式','电光蓝色','镶嵌宝石钟点标记','40毫米','50');
+/**nav**/
+CREATE TABLE nav(
+  nid INT PRIMARY KEY,                   #编号
+  title VARCHAR(32) NOT NULL DEFAULT ''  #主标题
+);
+
+/**nav**/
+CREATE TABLE nav_item(
+  iid INT PRIMARY KEY,                                 #选项id
+  title VARCHAR(32) NOT NULL DEFAULT '',               #主标题
+  subTitle VARCHAR(32) NOT NULL DEFAULT '',            #副标题
+  abstract VARCHAR(255) NOT NULL DEFAULT '',           #简介
+  href VARCHAR(255) NOT NULL DEFAULT "javascript:;",   #选项链接
+  nid INT,
+  FOREIGN KEY(nid) REFERENCES nav(nid)
+);
+
+/** header_content **/
+CREATE TABLE header_content(
+    cid INT PRIMARY KEY AUTO_INCREMENT,         #内容id
+    iid INT,                                    #用选项id
+    FOREIGN KEY(iid) REFERENCES nav_item(iid),
+    series VARCHAR(32) NOT NULL DEFAULT '',     #系列
+    illustrate  VARCHAR(32) NOT NULL DEFAULT '',#说明
+    img  VARCHAR(255) NOT NULL DEFAULT '',      #图片src
+    href  VARCHAR(255) NOT NULL DEFAULT "javascript:;",#链接
+    v1 INT NOT NULL DEFAULT 0,                  #冗余备用
+    V2 VARCHAR(255) NOT NULL DEFAULT 0          #冗余备用
+);
+
+
+/**nav**/
+INSERT INTO nav VALUES(10,"劳力士腕表");
+INSERT INTO nav VALUES(20,"劳力士世界");
+INSERT INTO nav VALUES(30,"零售商");
+
+/**nav_item**/
+INSERT INTO nav_item VALUES(1,"劳力士腕表","卓越性能与显赫象征","劳力士腕表蕴含最优质的原材料与一丝不苟的工艺。每件组件均由劳力士自行以严格的标准设计及研制。","",10);
+INSERT INTO nav_item VALUES(2,"特选腕表系列","腕表","不论任何兴趣、生活方式及个性，均有一只相称的劳力士腕表。探索我们为年内不同主题或赛事而设的特选腕表系列。","",10);
+INSERT INTO nav_item VALUES(3,"进阶搜索","腕表","劳力士为您提供一系列专业及经典腕表选择。探索劳力士腕表系列，挑选您喜爱的型号、材质、外圈、表盘及表带，总有一款合您心意。","",10);
+INSERT INTO nav_item VALUES(4,"制表工艺","腕表","劳力士是腕表研发的先驱，从金合金的铸造，到机芯、表壳、表盘及表带的加工、打磨、组装和修饰，腕表的所有重要零件均由劳力士全力设计及研制。","",10);
+INSERT INTO nav_item VALUES(5,"劳力士的历史","劳力士世界","身为腕表界的先驱，源于1905年的劳力士缔造出多项创新制表技术，包括首款防水腕表“Oyster”及恒动摆陀自动上链系统。超过一世纪以来，劳力士腕表伴随世界各地的探险家与精英征服世界之巅与海洋最深处。","",20);
+INSERT INTO nav_item VALUES(6,"劳力士与运动","劳力士世界","近一世纪以来，劳力士一直致力为追求卓越运动成就提供支持。现在，劳力士全力支持高尔夫球、网球、赛车及马术运动的顶尖赛事与盛事。劳力士不仅作为这些活动的赞助商，更与其开展长远且密切的合作伙伴关系。","",20);
+INSERT INTO nav_item VALUES(7,"艺术与文化","劳力士世界","自20世纪初，劳力士一直致力推动精英发挥所长，致力追求完美。劳力士为全球文化带来独特且持久的重要贡献，让来自不同年代、文化及领域的大众和艺术家增进交流。","",20);
+INSERT INTO nav_item VALUES(8,"科学与探险","劳力士世界","劳力士深信人类富有冒险精神。这种先天潜能让具有前瞻视野的人勇于追随所想，超越自我的心理界限，贡献社会并造福世界。探索劳力士的科学与探险世界。","",20);
+INSERT INTO nav_item VALUES(9,"一个劳力士、一个故事","劳力士故事","劳力士腕表常备受珍视，它不仅具备物质价值，更蕴藏深远的意义。不论是作为家传之宝、成功路上的里程碑或赠礼，劳力士腕表常象征着生命旅途上的非凡时刻。","",20);
+INSERT INTO nav_item VALUES(10,"零售商地址","","","",30);
+INSERT INTO nav_item VALUES(11,"服务中心地址","","","",30);
+INSERT INTO nav_item VALUES(12,"选购劳力士腕表","","","",30);
+INSERT INTO nav_item VALUES(13,"保养您的劳力士腕表","","","",30);
+INSERT INTO nav_item VALUES(14,"检修您的劳力士腕表","","","",30);
+
+/** header_content **/
+INSERT INTO header_content VALUES("",2,"节日特选腕表","送给挚爱的最佳礼品","imgs/header-nav/featured_selections_festive_2017_0001_1680x300.jpg","","","");
+INSERT INTO header_content VALUES("",2,"特选潜水腕表系列","海陆良伴","imgs/header-nav/featured_selections_diving_watches_0001_1680x300.jpg","","","");
+INSERT INTO header_content VALUES("",2,"帆船运动特选腕表","供杨帆出海的腕表","imgs/header-nav/featured_selections_yachting_selection_0001_1680x300.jpg","","","");
+INSERT INTO header_content VALUES("",2,"高尔夫特选腕表","显赫传统和声望的象征","imgs/header-nav/featured_selections_the_masters_0001_1680x300.jpg","","","");
+INSERT INTO header_content VALUES("",2,"速度与耐力特选腕表","注定与速度比拼的腕表","imgs/header-nav/featured_selection_speed_and_endurance_hub_0001_1680x300.jpg","","","");
+INSERT INTO header_content VALUES("",2,"杰出女性特选腕表","优雅与力量的完美结合","imgs/header-nav/featured_selection_women-campaign_hub_0001_1680x300.jpg","","","");
+
+INSERT INTO header_content VALUES("",3,"男士腕表","","imgs/header-nav/20180227_192926_001.jpg","","","");
+INSERT INTO header_content VALUES("",3,"女士腕表","","imgs/header-nav/20180227_192926_002.jpg","","","");
+INSERT INTO header_content VALUES("",3,"专业腕表","","imgs/header-nav/20180227_192926_003.jpg","","","");
+INSERT INTO header_content VALUES("",3,"钢腕表","","imgs/header-nav/20180227_192926_004.jpg","","","");
+INSERT INTO header_content VALUES("",3,"金腕表","","imgs/header-nav/20180227_192926_005.jpg","","","");
+INSERT INTO header_content VALUES("",3,"金刚腕表","","imgs/header-nav/20180227_192926_006.jpg","","","");
+INSERT INTO header_content VALUES("",3,"宝石镶嵌外圈","","imgs/header-nav/20180227_192926_007.jpg","","","");
+INSERT INTO header_content VALUES("",3,"三角坑纹外圈","","imgs/header-nav/20180227_192926_008.jpg","","","");
+INSERT INTO header_content VALUES("",3,"色彩表盘","","imgs/header-nav/20180227_192926_009.jpg","","","");
+
+INSERT INTO header_content VALUES("",4,"劳力士之道","","imgs/header-nav/20180227_194055_012.jpg","","","");
+INSERT INTO header_content VALUES("",4,"劳力士瑞士制造","","imgs/header-nav/20180227_194055_013.jpg","","","");
+INSERT INTO header_content VALUES("",4,"极限试验","","imgs/header-nav/20180227_194055_014.jpg","","","");
+INSERT INTO header_content VALUES("",4,"蚝式表壳","","imgs/header-nav/20180227_194055_015.jpg","","","");
+INSERT INTO header_content VALUES("",4,"恒动机芯","","imgs/header-nav/20180227_194055_016.jpg","","","");
+INSERT INTO header_content VALUES("",4,"3255型机芯","","imgs/header-nav/20180227_194055_017.jpg","","","");
+INSERT INTO header_content VALUES("",4,"表盘","","imgs/header-nav/20180227_194055_018.jpg","","","");
+INSERT INTO header_content VALUES("",4,"表带与带扣","","imgs/header-nav/20180227_194055_019.jpg","","","");
+INSERT INTO header_content VALUES("",4,"材质","","imgs/header-nav/20180227_194055_020.jpg","","","");
+
+INSERT INTO header_content VALUES("",5,"1905-1919年","","imgs/header-nav/20180227_195328_022.jpg","","","");
+INSERT INTO header_content VALUES("",5,"1926-1945年","","imgs/header-nav/20180227_195328_023.jpg","","","");
+INSERT INTO header_content VALUES("",5,"1953-1967年","","imgs/header-nav/20180227_195328_024.jpg","","","");
+INSERT INTO header_content VALUES("",5,"1971-1992年","","imgs/header-nav/20180227_195328_025.jpg","","","");
+INSERT INTO header_content VALUES("",5,"2000-2013年","","imgs/header-nav/20180227_195328_026.jpg","","","");
+
+INSERT INTO header_content VALUES("",6,"劳力士与马术","","imgs/header-nav/20180227_200549_027.jpg","","","");
+INSERT INTO header_content VALUES("",6,"劳力士与高尔夫球","","imgs/header-nav/20180227_200549_028.jpg","","","");
+INSERT INTO header_content VALUES("",6,"劳力士与网球","","imgs/header-nav/20180227_200549_030.jpg","","","");
+INSERT INTO header_content VALUES("",6,"劳力士与帆船运动","","imgs/header-nav/20180227_200549_031.jpg","","","");
+
+
+CREATE TABLE da(
+    xsid INT PRIMARY KEY,
+    xqid INT,
+    imag VARCHAR(128),            #图片路径
+    img VARCHAR(128),            #图片路径
+    tag VARCHAR(118),            #标签名
+    title VARCHAR(128),         #主标题
+    details VARCHAR(1024),      #产品详细说明
+
+    tag1 VARCHAR(16),            #标签名
+    title1 VARCHAR(128),         #主标题
+    details1 VARCHAR(1024),      #产品详细说明
+    img1 VARCHAR(128),             #图片路径
+
+    img2 VARCHAR(128),            #图片路径
+    tag2 VARCHAR(16),            #标签名
+    title2 VARCHAR(128),         #主标题
+    details2 VARCHAR(1024),      #产品详细说明
+
+    tag3 VARCHAR(16),            #标签名
+    title3 VARCHAR(128),         #主标题
+    details3 VARCHAR(1024),      #产品详细说明
+    img3 VARCHAR(128),             #图片路径
+
+    img4 VARCHAR(128),            #图片路径
+    tag4 VARCHAR(16),            #标签名
+    title4 VARCHAR(128),         #主标题
+    details4 VARCHAR(1024),      #产品详细说明
+
+    tag5 VARCHAR(16),            #标签名
+    title5 VARCHAR(128),         #主标题
+    details5 VARCHAR(1024),      #产品详细说明
+    img5 VARCHAR(128),             #图片路径
+
+    imge VARCHAR(128),            #图片路径
+    titl VARCHAR(128),         #主标题
+    subtitle VARCHAR(128),      #副标题
+    present VARCHAR(1024),    #介绍
+
+    tag6 VARCHAR(16),            #标签名
+    title6 VARCHAR(128),         #主标题
+    details6 VARCHAR(1024),      #产品详细说明
+    img6 VARCHAR(128),            #图片路径
+
+    tag7 VARCHAR(16),            #标签名
+    title7 VARCHAR(128),         #主标题
+    details7 VARCHAR(1024),      #产品详细说明
+    img7 VARCHAR(128)             #图片路径
+);
+
+
+INSERT INTO da VALUES(
+    '1','1','img/m228238-0008.png.jpg',
+    'img/m228238-0003.png.jpg','Milgauss的设计风格','易于识别','Milgauss在忠实于传统，保持独特个性的同时，承前启后，不断发展。简约的线条、橙色的闪电形秒针，让人易于识别。',
+    '型号特色','顺磁性零件','新世代Milgauss腕表机芯的不少零件均以顺磁性物料制造，当中包括蓝色Parachrom游丝。劳力士凭借独特的制表过程监控，在品牌工坊中以高科技自行生产这些部件。','img/20180228_100346_003.jpg',
+    'img/day-date_40_calibre_3255_0001_1680x720.jpg','型号特色','顺磁性零件','新世代Milgauss腕表机芯的不少零件均以顺磁性物料制造，当中包括蓝色Parachrom游丝。劳力士凭借独特的制表过程监控，在品牌工坊中以高科技自行生产这些部件。',
+    'Milgauss精神','MILGAUSS腕表的历史','普通腕表的可靠性和精准性在50至100高斯（0.01特斯拉tesla）磁场强度下就会严重受损。有见及此，劳力士致力寻求解决办法，并于1956年推出首款防磁腕表Milgauss。“mille”在法语中意为一千，腕表亦因而得名。','img/material_yellow_gold_0002_640x540.jpg',
+    'img/movement_calibre_3255_0001_640x540.jpg','Milgauss精神','最大的实验室，最微小的粒子','欧洲粒子物理研究中心（CERN）是世界一流的粒子物理实验所，进行最先进的科学研究以探索宇宙的奥秘。它更设有全球最高能量的粒子加速器。',
+    '特色','904L不锈钢','劳力士采用904L不锈钢来锻造不锈钢腕表表壳。904L不锈钢广泛用于高科技、航空及化工，故必然具备高抗腐蚀性。这种超合金不仅非常耐用且易于磨光，即使在最极端的环境，其美态依然不减。由此，劳力士更以904L不锈钢与贵金属创造出完美的腕表搭配。','img/20180227_203733_038.jpg',
+    'img/20180227_203733_039.jpg','绿水晶镜面','[ lu shui jing jing mian ]','1.由劳力士于2007年研发的独特绿水晶腕表镜面。2.防刮损，不褪色，仅使用于Milgauss腕表。3.其浅绿色泽渗透整块水晶镜面，更令其斜边显示近乎荧光的效果。4.鲜为人知的工艺程序，经年开发，才能成熟；加上数星期精心制造才能完成。5.由于研制过程极为困难，根本无人敢于尝试，因此无需申请专利。6.劳力士之道。',
+    '特色','蚝式表带','蚝式表带是完美造型、功能、美学及技术的化身，精致迷人。这款金属表带于1930年代末推出，由三排宽大、平整的链节组成，极其坚固，一直是蚝式系列中使用最广的一款表带。','img/m228238-0009.png.jpg',
+    'Milgauss','电子腕表手册','下载电子腕表手册到您的个人电脑或平板电脑，让您随时随地查看表款的详细资料。','img/day-date_40_e-brochure_0001_1680x420.jpg'
+);
+INSERT INTO da VALUES(
+    '2','2','img/day-date_40_m228206-0004_video_cover_0001_1680x500.jpg',
+    'img/day-date_40_m228206-0004_0001_840x835.jpg','星期日历型 40的设计风格','超卓精密时计','于2015年巴塞尔世界，劳力士推出新一代蚝式恒动星期日历型，为此享负盛名的表款融入新设计，当中包括40毫米表壳，以及在时计性能方面奠下新标准的全新3255型机械机芯。劳力士于1950年代后期推出“超卓天文台精密时计”，奠定表坛地位，星期日历型 40则更上层楼，其精确度较瑞士天文台认证精密时计高出两倍。',
+    '星期日历型 40的设计风格','星期日历型 40的设计风格','星期日历型 40的美学设计传承了此迷人腕表历年来的变化，包括其精制壳耳、中层表壳及宽阔清晰的表盘，而于1956年为星期日历型特制的元首型表带亦经重新设计，使之与蚝式表壳更为融合。','img/day-date_40_m228206-0004_0001_1680x660.jpg',
+    'img/day-date_40_m228206-0004_preseident_watch_0001_1680x700.jpg','星期日历型 40的设计风格','珍贵金属','星期日历型就是尊崇名望与尊贵气质的完美结合。星期日历型的蚝式表壳特别以950铂金或18ct黄金铸造而成，以显其高贵优雅的特质。外圈有三角坑纹、磨光或镶嵌华美宝石几种款式。',
+    '星期日历型 40精神','元首型腕表','于1956年面世的星期日历型建基于劳力士的三大支柱。此表是首款防水自动上链天文台认证腕表，配备瞬跳星期日历，在表盘的小窗同时显示日期和星期全写。在精准、可靠、易读和气派各方面，这只非凡杰作皆出类拔萃，奠定其至尊地位。无数元首、领袖及梦想家均曾佩戴劳力
+    士星期日历型，在腕表界中独占鳌头。元首型表带这名字直教人想起佩戴它的显赫人物，使星期日历型成为名副其实的“元首型腕表”，无出其右。','img/day-date_40_platinum_0001_840x800.jpg',
+    'img/day-date_40_m228206-0004_dial_0001_840x900.jpg','特色','再创经典的表盘','星期日历型 40配备一系列精心设计的全新表盘，把尖端科技与传统知识相结合，格外瞩目。传统太阳放射饰纹上方缀以纤薄激光蚀刻图案，营造出精致亮丽的效果。新设计的罗马数字小时钟点标记及以人手配置的元素，皆充分彰显这只迷人腕表的阳刚气息。表盘制作亦展露劳力士的独特工艺，各款新表盘专为最新推出的星期日历型 40而设。',
+    '特色','显赫尊贵的元首型表带','典雅瑰丽的元首型表带特别为1956年面世的星期日历型而设计，而这项传统元素亦再次融入最新款式之中。别具一格的纯金或铂金表带配备三格拱形链节，可靠舒适。如今链节更内嵌陶质组件，更柔韧耐用。外圈底下附有隐藏式组件，确保表带和表壳之间达到无缝连接的视觉效果。新一代隐蔽式皇冠带扣以铰接的劳力士皇冠标志开启，为这条高贵表带在美学和功能上添上点睛一笔。','img/day-date_40_president_bracelet_0001_840x620.jpg',
+    'img/rolex-way_parachrom_0001_240x240.jpg','Parachrom游丝','[ pa • ra • chrom ]','1.劳力士机械机芯的命脉，精确无误的中枢装置。2.以专利的铌、锆及氧合金制成，是由劳力士专门研发的策略性零件。3.不受磁场和温度变化的干扰，抗震力更比传统游丝提升十倍，令腕表更精确可靠。4.完全由劳力士制造，精确到微米。其独特的蓝色，是对卓越制表工艺致敬。5.透过尖端创新提升传统制表技术。劳力士之道。',
+    '特色','新一代恒动机芯','星期日历型 40采用完全由劳力士研制的新一代3255型机芯，展现超卓的精密时计水平。此自动上链机械机芯堪为制表技艺的巅峰之作。这只拥有14项专利的机芯，在精准度、动力储备、防震与防磁性能、佩戴舒适度和可靠性方面都十分出色，完美展示劳力士的精湛技术。','img/day-date_40_calibre_3255_0001_1680x720.jpg',
+    '星期日历型 40','电子腕表手册','下载电子腕表手册到您的个人电脑或平板电脑，让您随时随地查看表款的详细资料','img/day-date_40_e-brochure_0001_1680x420.jpg'
+);
+INSERT INTO da VALUES(
+    '3','3','img/20180228_100346_000.jpg',
+    'img/20180228_100346_001.jpg','蚝式恒动的设计风格','永恒经典','蚝式恒动表款凭借卓尔不凡的美学设计，成为公认优雅风格的象征。腕表不仅有着经典的外型与卓越功能，更承袭了劳力士先驱创新的起源，展现原款腕表的简约气质。',
+    '蚝式恒动精神','自动上链机芯','1931年，劳力士创制了一个名为“恒动摆陀”的自动上链摆陀装置，并为其取得专利。这项发明的技术原理及后更广为整个制表业所应用。 蚝式腕表及后更名为蚝式恒动（Oyster Perpetual），自此更可见于所有腕表系列的表盘上（经细致装饰或镶嵌宝石腕表除外），表示腕表具防水功能并搭载自动上链机芯。','img/20180228_100346_005.jpg',
+    'img/day-date_40_calibre_3255_0001_1680x720.jpg','蚝式恒动精神','汉斯 ∙ 威尔斯多夫','劳力士的历史与其富有远见和开拓精神的创办人汉斯 ∙ 威尔斯多夫之间，有着密不可分的关系。20世纪初，当怀表还相当盛行的时候，年轻的他便已投身瑞士制表业，并构想佩戴着腕表。',
+    '蚝式恒动精神','历史点滴','蚝式腕表的成功可追溯到1926年。当时劳力士发明了第一只蚝式腕表，并申请了专利。蚝式腕表作为世界首只防水表，可谓现代腕表的先驱。','img/20180228_100346_004.jpg',
+    'img/20180228_100346_002.jpg','蚝式恒动的实用功能','防水性能','蚝式表壳的防水深度达100米（330英尺），其独特的中层表壳以整块具有极强抗腐蚀性能的904L不锈钢所铸造而成。',  
+    '特色','904L不锈钢','劳力士采用904L不锈钢来锻造不锈钢腕表表壳。904L不锈钢广泛用于高科技、航空及化工，故必然具备高抗腐蚀性。这种超合金不仅非常耐用且易于磨光，即使在最极端的环境，其美态依然不减。由此，劳力士更以904L不锈钢与贵金属创造出完美的腕表搭配。','img/20180228_100346_006.jpg',
+    'img/20180228_100346_007.jpg','特色','蚝式恒动摆陀','此自动上链结构配有一个半月形自动陀，以单一方向绕中央轴轮自由转动，而另一个自动陀则可随手腕的自然摆动，将自然能量源源不绝地输送给腕表。',
+    '特色','蚝式表带','蚝式表带是完美造型、功能、美学及技术的化身，精致迷人。这款金属表带于1930年代末推出，由三排宽大、平整的链节组成，极其坚固，一直是蚝式系列中使用最广的一款表带。','img/20180228_100346_009.jpg',
+    '蚝式恒动系列','电子腕表手册','下载电子腕表手册到您的个人电脑或平板电脑，让您随时随地查看表款的详细资料。','img/day-date_40_e-brochure_0001_1680x420.jpg'
+);

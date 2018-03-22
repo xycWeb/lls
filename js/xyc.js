@@ -1,0 +1,13 @@
+/*页面控件点击事件处理*/
+/*1.左右箭头点击事件*/
+/*1.1左箭头点击事件*/
+	$('.xyc_right').click(()=>{
+		$('.xyc_choose_box').addClass("moveleft");
+	});
+/*1.2右箭头点击事件*/
+	$('.xyc_left').click(()=>{
+		$('.xyc_choose_box').removeClass("moveleft");
+	});
+/*关闭点击事件*/
+/*重设点击事件*/
+/*页面信息导入函数*/
